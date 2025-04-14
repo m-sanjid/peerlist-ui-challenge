@@ -9,7 +9,7 @@ interface TabProps {
   index: number;
 }
 
-const Tab = ({ children, active, onClick, index }: TabProps) => {
+const Tab = ({ children, active, onClick}: TabProps) => {
   return (
     <motion.button
       className={`relative px-6 py-3 rounded-lg text-sm transition-colors text-muted-foreground ${
