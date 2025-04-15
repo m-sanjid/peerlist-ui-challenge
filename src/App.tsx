@@ -3,7 +3,7 @@ import { Home, Mail, User, Settings } from 'lucide-react';
 import Status from './components/Status';
 import Todo from './components/Todo';
 import Tabs from './components/Tabs';
-
+import Toggle from './components/Toggle';
 const menuItems: MenuItem[] = [
   { icon: <Home size={22} />, id: 'home', label: 'Home' },
   { icon: <Mail size={22} />, id: 'mail', label: 'Mail' },
@@ -36,6 +36,7 @@ export default function HomePage() {
 
         {/* Day 4 */}
           <div className="w-full h-full">
+            <Toggle />
         </div>
 
         {/* Day 5 */}
